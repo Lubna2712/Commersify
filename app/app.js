@@ -14,7 +14,7 @@ import LanguageProvider from "./utils/LanguageProvider"
 
 // Load the favicon and the .htaccess file
 import "!file-loader?name=[name].[ext]!./assets/Logo/favicon.png"
-import "file-loader?name=.htaccess!./.htaccess" // eslint-disable-line import/extensions
+// import "file-loader?name=.htaccess!./.htaccess" // eslint-disable-line import/extensions
 
 import configureStore from "./configureStore"
 
@@ -41,7 +41,7 @@ const render = (messages) => {
   ReactDOM.render(
     <Provider store={store}>
       <LanguageProvider messages={messages}>
-        <ConnectedRouter history={history}>
+        <ConnectedRouter history={history} basename="/Commersify">
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <App />
