@@ -2,7 +2,7 @@
   "name": "commersify-admin",
   "version": "0.1.0",
   "description": "Commersify Admin app",
-  "homepage": "https://Lubna2712.github.io/Commersify",
+  "homepage": "https://lubna2712.github.io/Commersify",
   "private": true,
   "engines": {
     "npm": ">=5",
