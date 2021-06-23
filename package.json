@@ -9,7 +9,7 @@
     "node": ">=8.15.1"
   },
   "author": "Lubna Khan",
-  "license": "NA",
+  "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
     "preanalyze": "npm run analyze:clean",
@@ -70,7 +70,6 @@
     "@material-ui/lab": "^4.0.0-alpha.58",
     "chalk": "2.4.2",
     "chart.js": "^3.3.0",
-    "commersify-components": "file:../commersify-components",
     "compression": "1.7.4",
     "connected-react-router": "6.4.0",
     "cross-env": "5.2.0",
@@ -123,7 +122,7 @@
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "circular-dependency-plugin": "5.0.2",
     "compare-versions": "3.4.0",
-    "compression-webpack-plugin": "^8.0.0",
+    "compression-webpack-plugin": "6.1.1",
     "coveralls": "3.0.3",
     "css-loader": "^5.2.5",
     "eslint": "5.16.0",
